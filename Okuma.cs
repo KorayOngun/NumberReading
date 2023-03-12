@@ -50,7 +50,8 @@ namespace NumberReading
                     result += x == 1 ? $"{yuz} " : $"{birler[x]}{yuz} ";
                 }
                 result += $"{onlar[y]} {birler[z]} ";
-                result += $"{bm[t]} ";
+                bool bmR = (x != 0) || (y != 0) || (z != 0);
+                result += bmR ? $"{bm[t]} " : "";
             }
             return result;
         }

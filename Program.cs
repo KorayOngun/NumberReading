@@ -27,6 +27,5 @@ try
 catch (Exception)
 {
     Console.WriteLine("0-18446744073709551615 aralığında bir değer girin.");
-
 }
 
