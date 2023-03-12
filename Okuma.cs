@@ -53,6 +53,7 @@ namespace NumberReading
                 bool bmR = (x != 0) || (y != 0) || (z != 0);
                 result += bmR ? $"{bm[t]} " : "";
             }
+            
             return result;
         }
 
